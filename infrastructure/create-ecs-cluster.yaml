@@ -23,7 +23,7 @@ Resources:
             ClusterName: !Ref EnvironmentName
 
     # This is a role which is used by the ECS service to perform ECS API actions on your 
-    # behalf, such as pulling container images from ECR, or storing container application
+    # behalf such as pulling container images from ECR, or storing container application
     # logs in CloudWatch.
     ECSTaskExecutionRole:
         Type: AWS::IAM::Role
